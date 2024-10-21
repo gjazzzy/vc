@@ -117,11 +117,11 @@ $(document).ready(function () {
 
    $(".header__btn-cart").click(function () {
       var currentImage = $("#button-image").attr("src");
-      if (currentImage === "../images/icons/icon-shopping-cart.svg") {
+      if (currentImage === "..images/icons/icon-shopping-cart.svg") {
          $('.right').show();
-         $("#button-image").attr("src", "../images/icons/NextArrow.svg");
+         $("#button-image").attr("src", "..images/icons/NextArrow.svg");
       } else {
-         $("#button-image").attr("src", "../images/icons/icon-shopping-cart.svg");
+         $("#button-image").attr("src", "..images/icons/icon-shopping-cart.svg");
          $('.right').hide();
       }
    });
